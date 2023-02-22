@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_goneMarginTop="50dp"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textViewislemtutari2"
+        android:layout_width="125dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="10dp"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewsonucdahil4"
+        app:layout_constraintTop_toBottomOf="@+id/textViewharic"
+        app:layout_goneMarginTop="50dp" />
+
+    <TextView
+        android:id="@+id/textViewtoplamtutar2"
+        android:layout_width="124dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="15dp"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewsonucdahil6"
+        app:layout_constraintTop_toBottomOf="@+id/textViewkdvtutari2"
+        app:layout_goneMarginTop="50dp" />
+
+    <TextView
+        android:id="@+id/textViewkdvtutari2"
+        android:layout_width="125dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="15dp"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewsonucdahil5"
+        app:layout_constraintTop_toBottomOf="@+id/textViewislemtutari2"
+        app:layout_goneMarginTop="50dp" />
+
+    <TextView
+        android:id="@+id/textViewsonucdahil5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/kdvtutari1"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewsonucdahil4"
+        app:layout_goneMarginTop="50dp" />
+
+    <TextView
+        android:id="@+id/textViewsonucdahil4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/islemtutari1"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewharic"
+        app:layout_goneMarginTop="50dp" />
+
+    <TextView
+        android:id="@+id/textViewsonucdahil6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/toplamtutar1"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewsonucdahil5"
+        app:layout_goneMarginTop="50dp" />
+
+    <TextView
+        android:id="@+id/textViewsonucdahil3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="111dp"
+        android:text="@string/kdvtutari1"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toStartOf="@+id/textViewikdvtutari1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewsonucdahil2"
+        app:layout_goneMarginTop="50dp" />
+
+    <TextView
+        android:id="@+id/textViewsonucdahil2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="98dp"
+        android:text="@string/islemtutari1"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toStartOf="@+id/textViewislemtutari1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewdahil"
+        app:layout_goneMarginTop="50dp" />
+
+    <TextView
+        android:id="@+id/textViewtutar"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="31dp"
+        android:gravity="center"
+        android:text="@string/deger"
+        app:layout_constraintEnd_toStartOf="@+id/edittutar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginTop="50dp" />
+
+    <TextView
+        android:id="@+id/textViewkdvmiktar"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/kdvmiktari"
+        app:layout_constraintEnd_toStartOf="@+id/edittutar"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewtutar"
+        app:layout_goneMarginTop="50dp" />
+
+    <TextView
+        android:id="@+id/textViewdahil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/dahilyazisi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonhesapla"
+        app:layout_goneMarginTop="50dp" />
+
+    <TextView
+        android:id="@+id/textViewharic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:gravity="center"
+        android:text="@string/haricyazisi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewdahil"
+        app:layout_goneMarginTop="50dp" />
+
+    <EditText
+        android:id="@+id/editkdvorani"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Kdv Seçiniz"
+        android:inputType="textPersonName|numberDecimal"
+        android:maxLength="4"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewtutar"
+        app:layout_constraintTop_toBottomOf="@+id/edittutar"
+        app:layout_goneMarginTop="50dp" />
+
+    <Button
+        android:id="@+id/buttonyuzde18"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:onClick="btnkdvtik"
+        android:text="@string/kdv18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonyuzde8"
+        app:layout_constraintTop_toBottomOf="@+id/editkdvorani"
+        app:layout_goneMarginTop="50dp" />
+
+    <Button
+        android:id="@+id/buttonyuzde8"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:onClick="btnkdvtik"
+        android:text="@string/kdv8"
+        app:layout_constraintEnd_toStartOf="@+id/buttonyuzde18"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonyuzde1"
+        app:layout_constraintTop_toBottomOf="@+id/editkdvorani"
+        app:layout_goneMarginTop="50dp" />
+
+    <Button
+        android:id="@+id/buttonhesapla"
+        android:layout_width="128dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/buttonhesapla"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonyuzde8"
+        app:layout_goneMarginTop="50dp" />
+
+    <Button
+        android:id="@+id/buttonyuzde1"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:onClick="btnkdvtik"
+        android:text="@string/kdv1"
+        app:layout_constraintEnd_toStartOf="@+id/buttonyuzde8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewkdvmiktar"
+        app:layout_goneMarginTop="50dp" />
+
+    <EditText
+        android:id="@+id/edittutar"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:hint="Tutar"
+        android:inputType="number|textPersonName|numberDecimal"
+        android:maxLength="13"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewtutar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginTop="50dp" />
+
+    <TextView
+        android:id="@+id/textViewsonucdahil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="88dp"
+        android:text="@string/toplamtutar1"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toStartOf="@+id/textViewtoplamtutar1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewsonucdahil3"
+        app:layout_goneMarginTop="50dp" />
+
+    <TextView
+        android:id="@+id/textViewislemtutari1"
+        android:layout_width="124dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="10dp"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewsonucdahil2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewdahil"
+        app:layout_goneMarginTop="50dp" />
+
+    <TextView
+        android:id="@+id/textViewikdvtutari1"
+        android:layout_width="125dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="15dp"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewsonucdahil3"
+        app:layout_constraintTop_toBottomOf="@+id/textViewislemtutari1"
+        app:layout_goneMarginTop="50dp" />
+
+    <TextView
+        android:id="@+id/textViewtoplamtutar1"
+        android:layout_width="124dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="15dp"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewsonucdahil"
+        app:layout_constraintTop_toBottomOf="@+id/textViewikdvtutari1"
+        app:layout_goneMarginTop="50dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

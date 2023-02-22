@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KDV Hesapla</string>
+    <string name="deger">TUTARI GİRİNİZ</string>
+    <string name="kdvmiktari">KDV MİKTARI</string>
+    <string name="kdv1">%1</string>
+    <string name="kdv8">%8</string>
+    <string name="kdv18">%18</string>
+    <string name="buttonhesapla">Hesapla</string>
+    <string name="dahilyazisi">------------------------------------        KDV DAHİL        ------------------------------------</string>
+    <string name="haricyazisi">------------------------------------        KDV HARİÇ        ------------------------------------</string>
+    <string name="islemtutari1">İŞLEM TUTARI</string>
+    <string name="kdvtutari1">KDV TUTARI</string>
+    <string name="toplamtutar1">TOPLAM TUTAR</string>
+
+
+</resources>
